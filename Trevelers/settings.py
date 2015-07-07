@@ -27,7 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -56,7 +55,9 @@ ROOT_URLCONF = 'Trevelers.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            '/home/ghost/workspace/Trevelers/templates',
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
